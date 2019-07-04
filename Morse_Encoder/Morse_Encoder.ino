@@ -56,6 +56,9 @@ void loop() {
         case ' ': morse.divid();
           break;
         case '/': morse.space();
+          break;
+        default:
+          break;
       }
       Serial.print(">");
     }
